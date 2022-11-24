@@ -122,7 +122,7 @@ header{
 #changemode button{
     height: 100%;
     width: 100%;
-
+    background-color: white;
     font-size: 15px;
     font-family: ui-sans-serif;
     border: 1px solid black;
@@ -167,7 +167,7 @@ body{
 
 
 
-#signin{
+#login{
     float: left;
     height: 33px;
     width: 12%;
@@ -177,15 +177,14 @@ body{
 
 }
 
-#signin button{
+#login button{
     height: 100%;
     width: 100%;
+    background-color: white;
     font-size: 15px;
     font-family: ui-sans-serif;
     /* border: 1px solid black; */
     border: none;
-    background-color: red;
-    color: white;
 }
 
 
