@@ -53,10 +53,10 @@ header{
 
 #searchmainline{
     float: left;
-    height: 40px;
+    height: 35px;
     width: 82%;
     /* border: 5px solid pink; */
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 #searchmainline input{
@@ -73,10 +73,10 @@ header{
 
 #searchmainlogo{
     float: left;
-    height: 40px;
-    width: 8%;
+    height: 34px;
+    width: 9%;
     /* border: 5px solid gold; */
-    margin-top: 1%;
+    margin-top: 3%;
 
 }
 
@@ -115,14 +115,18 @@ header{
 
 }
 
+#changemode:hover{
+    color: white;
+}
+
 #changemode button{
     height: 100%;
     width: 100%;
-    background-color: white;
     font-size: 15px;
     font-family: ui-sans-serif;
     border: 1px solid black;
     border: none;
+    background-color: red;
 }
 
 /* java script css for change mode */
@@ -162,7 +166,7 @@ body{
 
 
 
-#login{
+#signin{
     float: left;
     height: 33px;
     width: 12%;
@@ -172,14 +176,15 @@ body{
 
 }
 
-#login button{
+#signin button{
     height: 100%;
     width: 100%;
-    background-color: white;
     font-size: 15px;
     font-family: ui-sans-serif;
     /* border: 1px solid black; */
     border: none;
+    background-color: red;
+    color: white;
 }
 
 
