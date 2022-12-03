@@ -8,7 +8,7 @@ body{
 header{
     height: 680px;
     /* border: 5px solid blue; */
-    background-image: url("images/iron_man_3_iron_man_vs_mandarin-wallpaper-1920x1080.jpg");
+    /* background-image: url("images/iron_man_3_iron_man_vs_mandarin-wallpaper-1920x1080.jpg"); */
     background-repeat: no-repeat;
     background-size: 100% 680px;
 }
@@ -38,9 +38,9 @@ header{
 #headerbuttons{
     float: left;
     height: 60px;
-    width: 60%;
-    /* border: 5px solid orange; */
-    margin-left: 20%;
+    width: 65%;
+    /* border: 5px solid red; */
+    margin-left: 14%;
     margin-top: 1%;
 }
 
@@ -53,10 +53,10 @@ header{
 
 #searchmainline{
     float: left;
-    height: 40px;
+    height: 36px;
     width: 82%;
     /* border: 5px solid pink; */
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 #searchmainline input{
@@ -70,12 +70,12 @@ header{
     
 }
 
-
+/* 
 #searchmainlogo{
     float: left;
     height: 40px;
     width: 8%;
-    /* border: 5px solid gold; */
+    border: 5px solid gold;
     margin-top: 1%;
 
 }
@@ -83,7 +83,7 @@ header{
 #searchmainlogo img{
     height: 100%;
     width: 100%;
-}
+} */
 
 
 
@@ -93,6 +93,7 @@ header{
     width: 13%;
     /* border: 5px solid chocolate; */
     margin-top: 1%;
+    margin-left: -3%;
 }
 
 #language select{
@@ -108,7 +109,7 @@ header{
 #changemode{
     float: left;
     height: 33px;
-    width: 20%;
+    width: 13%;
     /* border: 5px solid chocolate; */
     margin-top: 1%;
     margin-left: 2%;
@@ -132,7 +133,7 @@ header{
 
 /* java script css for change mode */
 body{
-    background-color: rgb(250, 199, 110);
+    background-color: orange;
     color: black;
 }
 
@@ -144,7 +145,7 @@ body{
 
 
 
-#subscribe{
+#getlocation{
     float: left;
     height: 33px;
     width: 13%;
@@ -154,7 +155,7 @@ body{
 
 }
 
-#subscribe button{
+#getlocation button{
     height: 100%;
     width: 100%;
     background-color: white;
@@ -163,6 +164,30 @@ body{
     /* border: 1px solid black; */
     border: none;
 }
+
+
+/* #getlocationresult{
+    float: left;
+    height: 33px;
+    width: 13%;
+    border: 5px solid chocolate;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+
+}
+
+
+#getlocationresult button{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-size: 15px;
+    font-family: ui-sans-serif;
+    border: 1px solid black;
+    border: none;
+
+} */
 
 
 
@@ -297,18 +322,25 @@ body{
 
 
 /* body section css */
-#bodysection{
-    height: 620px;
-    /* border: 5px solid red; */
-}
+/* #bodysection{
+    height: 620px; 
+    border: 5px solid red;
+     background-color: red;
+} */
 
-#coupon{
-    /* height: 640px; */
-    width: 30%;
-    /* border: 5px solid indigo; */
-    margin-left: 33%;
-    margin-top: 1%;
-}
+
+#coupon {
+        /* height: 640px; */
+        width: 30%;
+        /* border: 5px solid indigo; */
+        margin-left: 33%;
+        margin-top: 1%;
+        position: absolute;
+        z-index: 100;
+        margin-top: -35%;
+    }
+    
+
 
 #coupanmainheading{
     height: 60px;
@@ -318,22 +350,23 @@ body{
 
 #coupanmainheadingmaincontent{
     float: left;
-    height: 50px;
-    width: 92%;
-    border: 1px solid black;
+    height: 56px;
+    width: 75%;
+    /* border: 1px solid #0a1330; */
     font-size: 32px;
     font-family: ui-sans-serif;
     color: whitesmoke;
     font-style: italic;
     padding-left: 15%;
+    padding-top: 1%;
     background-color: #0a1330;
     text-align: center;
 }
 
 #coupanmainheadingmainbutton{
     float: left;
-    height: 50px;
-    width: 8%;
+    height: 56px;
+    width: 10%;
     /* border: 5px solid blue; */
     margin-left: 0%;
    
@@ -441,6 +474,7 @@ body{
     color: #dbedf9;
 
 }
+
 
 
 

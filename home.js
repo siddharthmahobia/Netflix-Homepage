@@ -1,19 +1,33 @@
+//this function is for ligt and dark mode
 function changemode()
 {
     let mybody=document.body;
     mybody.classList.toggle("darkmode");
 }
 
-function closecoupan()
-{
-    document.getElementById("coupanmain").style.visibility="hidden";
-    document.getElementById("coupanmain").style.opacity="1";
 
-}
+//this function is for the coupan code
 
-function loadcoupan()
-{
-    document.getElementById("coupanmain").style.visibility="visible";
-    document.getElementById("coupanmain").style.opacity="0.5";
+function loadCoupon()
+    {
+        document.getElementById('coupon').style.visibility = 'visible';
+        document.getElementById('coupanmain').style.opacity='1';
+        document.body.style.opacity=0.7;
+    }
 
-}
+function closeCoupon()
+    {
+        document.getElementById('coupon').style.visibility = 'hidden';
+        document.getElementById('coupanmain').style.opacity='1';
+        document.body.style.opacity=1;
+    }
+
+
+
+
+// this script is for the coupan code
+// window.onload = loadCoupon();
+
+
+
+

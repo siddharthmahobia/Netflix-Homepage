@@ -30,9 +30,9 @@
                             <div id="searchmainline">
                                 <input type="text" placeholder="Search">
                             </div>
-                            <div id="searchmainlogo">
-                                <!-- <img src="images/serach logo.jpg" alt=""> -->
-                            </div>
+                            <!-- <div id="searchmainlogo">
+                                <img src="images/serach logo.jpg" alt="">
+                            </div> -->
                         </div>
                     </div>
 
@@ -48,9 +48,18 @@
                     </div>
 
 
-                    <div id="subscribe">
-                        <button type="button">SUBSCRIBE</button>
+                    <div id="getlocation">
+                        <button type="button" onclick="geolocation()">Get Location</button>
+                        <p id="out"></p>
+                        <p id="weather"></p>
+                        
                     </div>
+<!-- 
+                    <div id="getlocationresult">
+                        <button id="weather"></button>
+                    </div> -->
+
+    
 
 
                     <div id="login">
@@ -118,7 +127,7 @@
                                 NETFLIX
                             </div>
                             <div id="coupanmainheadingmainbutton">
-                                <button type="button" onclick="closecoupan()">&times;</button>
+                                <button type="button" onclick="closeCoupon()">&times;</button>
                             </div>
                         </div>
                     </div>
@@ -149,7 +158,7 @@
         </div>
 
 
-        <div class="lineaftereachsection"></div>
+        <!-- <div class="lineaftereachsection"></div> -->
 
 
         <!-- enjoy section -->
@@ -526,11 +535,50 @@
 
 
 
+<script>
+window.onload = loadCoupon();
 
+let x=document.getElementById("out");
+let y=document.getElementById("weather");
 
-        <script>
-            window.onload = loadcoupon();
-        </script>
+function geolocation() 
+{
+    if(navigator.geolocation)
+    {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+    else
+    {
+        x.innerText="geo not found";
+    }
+}
+
+function showPosition(data)
+{
+    console.log(data);
+    let lat = data.coords.latitude;
+    let long = data.coords.longitude;
+    // let out = `Latitude is ${lat} & longitude is ${long}`;
+    // x.innerText = out;
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+    ///api calling
+    fetch(url,{method: 'GET'})
+    //return promise
+    .then((res) => res.json())
+    //return data
+    .then((data) => 
+    {
+        console.log(data);
+        let city = data.city.name;
+        let temp = data.list[0].temp.day;
+        y.innerText = `City is ${city} and Temp is ${temp} °C`;
+                
+    })
+}
+
+</script>
+
+    
 
     </body>
 </html>
