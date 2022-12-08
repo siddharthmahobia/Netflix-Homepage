@@ -12,7 +12,7 @@ function loadCoupon()
     {
         document.getElementById('coupon').style.visibility = 'visible';
         document.getElementById('coupanmain').style.opacity='1';
-        document.body.style.opacity=0.7;
+        document.body.style.opacity=0.8;
     }
 
 function closeCoupon()
@@ -27,6 +27,12 @@ function closeCoupon()
 
 // this script is for the coupan code
 // window.onload = loadCoupon();
+
+
+
+
+
+
 
 
 

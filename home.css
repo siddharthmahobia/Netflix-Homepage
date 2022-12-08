@@ -6,7 +6,7 @@ body{
 
 /* header section css */
 header{
-    height: 680px;
+    /* height: 680px; */
     /* border: 5px solid blue; */
     /* background-image: url("images/iron_man_3_iron_man_vs_mandarin-wallpaper-1920x1080.jpg"); */
     background-repeat: no-repeat;
@@ -165,16 +165,15 @@ body{
     border: none;
 }
 
-
-/* #getlocationresult{
-    float: left;
-    height: 33px;
-    width: 13%;
-    border: 5px solid chocolate;
-    margin-top: 1%;
-    margin-left: 2%;
+#weather{
+    height: 46px;
+    width: 100%;
+    /* background-color: white; */
+    font-family: serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
     
-
 }
 
 
@@ -187,7 +186,7 @@ body{
     border: 1px solid black;
     border: none;
 
-} */
+} 
 
 
 
@@ -263,7 +262,7 @@ body{
 
 
 #headercontent5 {
-    height: 75px;
+    height: 120px;
     width: 92%;
     /* border: 5px solid yellow; */
     margin-left: 5%;
@@ -337,7 +336,7 @@ body{
         margin-top: 1%;
         position: absolute;
         z-index: 100;
-        margin-top: -35%;
+        margin-top: -26%;
     }
     
 
