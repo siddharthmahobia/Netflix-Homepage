@@ -49,6 +49,7 @@ header{
     height: 40px;
     width: 31%;
     /* border: 5px solid green; */
+    margin-left: 14%;
 }
 
 #searchmainline{
@@ -1334,21 +1335,25 @@ body{
 
     #language {
         
-        margin-left: -2%;
+        margin-left: -4%;
     }
 
     #changemode {
 
-        width: 18%;
+        width: 15%;
         margin-left: 1%;
 
     }
 
-    #subscribe {
-
-            width: 17%;
-            margin-left: 1%;
+    #getlocation{
+        width: 13%;
     }
+
+    #getlocation button{
+        font-size: 14px;
+    }
+
+    
 
     #coupanmain{
         width: 164%;
@@ -1420,7 +1425,7 @@ body{
 
 #footercontent3mainlogo {
     
-    width: 15%;
+    width: 12%;
 
 }
 
@@ -1495,6 +1500,10 @@ body{
     width: 23%;
 
 }
+
+.footercontent5socialiconslogo {
+    width: 5%;
+}
     
 
 
@@ -1514,25 +1523,44 @@ body{
         background-color: lightgreen;
     } */
 
+    #search {
+
+        margin-left: 9%;
+    }
+
+    #searchmainline {
+        
+        height: 42px;
+    }
+
     #language {
+        height: 42px;
         margin-left: -2%;
         width: 16%;
         font-size: 8px;
     }
 
     #changemode {
-        width: 22%;
+        height: 42px;
+        width: 16%;
         margin-left: 1%;
     }
 
-    #subscribe button {
-        
-        font-size: 12px;
-
+    #changemode button{
+        font-size: 14px;
     }
+
+    #getlocation {
+        height: 42px;
+        width: 15%;
+        margin-left: 1%;
+    }
+
+    
 
     #login {
 
+        height: 42px;
         margin-left: 1%;
     }
 
@@ -1607,6 +1635,12 @@ body{
     width: 98%;
 }
 
+#footercontent3main {
+    
+    width: 90%;
+
+}
+
 #footercontent3mainlogo {
     width: 20%;
 }
@@ -1618,7 +1652,7 @@ body{
 }
 
 .footercontent5socialiconslogo {
-    width: 9%;
+    width: 7%;
 }
 
 
@@ -1736,33 +1770,39 @@ body{
     #search {
 
         width: 29%;
-        margin-left: -4%;
+        margin-left: 9%;
         
     }
 
     #language {
         margin-left: -4%;
-        width: 21%;
+        width: 17%;
         
     }
 
+    #language select {
+        
+        font-size: 14px;
+      
+    }
+
     #changemode {
-        width: 26%;
+        width: 17%;
         margin-left: 1%;
     }
 
     #changemode button {
        
-        font-size: 13px;
+        font-size: 14px;
 
     }
 
-    #subscribe button {
-        font-size: 9px;
+    #getlocation button {
+        font-size: 14px;
     }
 
     #login button {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     #coupanmain{
@@ -1820,6 +1860,10 @@ body{
     font-size: 18px;
 }
 
+#footercontent3main {
+    width: 70%;
+}
+
 .footercontent2mainsectioncontent {
     width: 100%;
 }
@@ -1846,8 +1890,9 @@ body{
 }
 
 .footercontent5socialiconslogo {
-    width: 13%;
+    width: 8%;
 }
+
 
 #headercontent1 {
     width: 87%;
@@ -1867,6 +1912,8 @@ body{
 #downloadmaincontent1 {
     width: 100%;
     font-size: 24px;
+    height: 110px;
+    
 }
 
 #downloadmaincontent2 {
@@ -1877,10 +1924,11 @@ body{
 #watchmaincontent1{
     width: 100%;
     font-size: 24px;
+    height: 81px;
 }
 
 #watchmaincontent2 {
-    width: 93%;
+    width: 100%;
     font-size: 21px;
 }
 
@@ -1933,32 +1981,50 @@ body{
         background-color: gold;
     } */
 
+    #search {
+        width: 29%;
+        margin-left: 3%;
+    }
+
+    #language {
+        margin-left: -4%;
+        width: 21%;
+    }
+
     #language select {
        
-        font-size: 11px;
+        font-size: 13px;
         
     }
 
     #changemode {
-        width: 25%;
+        width: 16%;
         margin-left: 1%;
     }
 
     #changemode button{
-        font-size: 10px;
+        font-size: 13px;
     }
 
-    #subscribe {
-        width: 18%;
-        margin-left: 1%;
+    #getlocation {
+        
+        width: 17%;
+        
     }
 
-    #subscribe button{
-        font-size: 7px;
+    #getlocation button {
+        font-size: 13px;
+    }
+
+    
+
+    #login {
+
+        width: 15%;
     }
 
     #login button {
-        font-size: 8px;
+        font-size: 13px;
     }
 
     #coupanmain{
@@ -2031,8 +2097,16 @@ body{
     width: 53%;
 }
 
-.footercontent5socialiconslogo {
+#footercontent3mainlogo {
     width: 17%;
+}
+
+#footercontent3mainselect {
+    width: 50%;
+}
+
+.footercontent5socialiconslogo {
+    width: 12%;
 }
 
 #headercontent1 {
@@ -2062,6 +2136,7 @@ body{
 #headercontent5 {
     width: 100%;
     margin-left: 0%;
+    margin-top: 3%;
 
 }
 
